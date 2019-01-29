@@ -1,0 +1,7 @@
+include 'desktop', 'core'
+
+if(hasProperty("ANDROID")) {
+    include 'android'
+}
+
+includeBuild("../libgdx-addons")
